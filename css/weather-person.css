@@ -1,0 +1,70 @@
+#gender-select {
+    text-align: center;
+}
+
+#color-select {
+    text-align: center;
+}
+
+#person-container {
+    font-size: 250px;
+    padding-top: 250px;
+    background: #87ceeb;
+    line-height: 1;
+    text-align: center;
+}
+
+.person {
+    color: red;
+}
+
+#cloud {
+    top: 20px;
+    position: absolute;
+    width: 250px;
+    margin-left: -250px;
+    display: inline-block;
+}
+
+#storm {
+    top: 20px;
+    position: absolute;
+    width: 200px;
+    margin-left: -200px;
+    display: inline-block;
+}
+
+#sun {
+    top: 20px;
+    position: absolute;
+    width: 150px;
+    margin-left: -200px;
+    display: inline-block;
+}
+
+#sunglasses {
+    position: absolute;
+    width: 75px;
+    top: 265px;
+    margin-left: -13%;
+    display: inline-block;
+    z-index: 100;
+}
+
+#weather-select {
+    text-align: center;
+}
+
+#select-options {
+    background: #7cfc00;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+#tree {
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    width: 350px;
+    height: 450px;
+}

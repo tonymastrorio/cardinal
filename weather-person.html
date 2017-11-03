@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Weather Person</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/weather-person.css">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/9705d53f80.js"></script>
+  </head>
+  <body>
+    <div id="page-container">
+
+      <img id="cloud" src="images/weather-person/cloud-1.png">
+      <img id="storm" src="images/weather-person/cloud-2.png">
+      <img id="sun" src="images/weather-person/sun.png">
+      <img id="sunglasses" src="images/weather-person/sunglasses.png">
+
+      <div id="tree-container">
+        <img id="tree" src="images/weather-person/tree-1.png">
+      </div>
+
+      <div id="person-container">
+        <i id="person-gender" class="fa fa-male person" aria-hidden="true"></i>
+      </div>
+      
+      <div id="select-options">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div id="gender-select">
+                <h4>Select a Gender:</h4>
+                <button type="button" id="male" class="btn btn-default btn-primary btn-md active">Male</button>
+                <button type="button" id="female" class="btn btn-default btn-md">Female</button>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="weather-select">
+                <h4>Select the Weather:</h4>
+                <button type="button" id="cloudy" class="btn btn-default btn-md">Cloudy</button>
+                <button type="button" id="sunny" class="btn btn-default btn-md">Sunny</button>
+                <button type="button" id="stormy" class="btn btn-default btn-md">Stormy</button>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div id="color-select">
+                <h4>Select a Color:</h4>
+                <button type="button" id="male" class="color-btn btn btn-default btn-primary btn-md active">Red</button>
+                <button type="button" id="female" class="color-btn btn btn-default btn-md">Orange</button>
+                <button type="button" id="female" class="color-btn btn btn-default btn-md">Yellow</button>
+                <button type="button" id="female" class="color-btn btn btn-default btn-md">Green</button>
+                <button type="button" id="female" class="color-btn btn btn-default btn-md">Blue</button>
+                <button type="button" id="female" class="color-btn btn btn-default btn-md">Purple</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/weather-person.js"></script>
+  </body>
+</html>

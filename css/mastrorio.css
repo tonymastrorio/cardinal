@@ -1,0 +1,105 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background:#000000;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li.selected a {
+    color: #000000;
+    background:#ffffff;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a .active {
+    color: #000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background: #ffffff;
+    color:#000000;
+    font-weight:bold;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+    font-weight:bold;
+}
+
+.navbar-brand {
+	font-weight:bold;
+	font-size:20px;
+	color:#ffffff;
+}
+
+#main-img {
+	width: 450px;
+	display:block;
+	margin:auto;
+	text-align:center;
+	padding-top:5%;
+}
+
+h1 {
+	font-size:9.0vh;
+	text-align: center;
+	font-weight:bold;
+}
+
+#main-content {
+	padding-top:8%;
+	padding-bottom:25px;
+	color:#ffffff;
+}
+
+#main-container {
+	padding-top:2%;
+}
+
+#secondary-content {
+	font-size:40px;
+	text-align: center;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#about-content {
+	padding-top:4%;
+	font-size:22px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#below-main-content {
+	font-size:4.0vh;
+	text-align:center;
+	color:#ffffff;
+}
+
+.navbar-header a:hover {
+	color:#ffffff;
+}
+
+h2 {
+	font-size: 3.0vh;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+
+p a {
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+p a:hover {
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+#about-content p {
+	font-size:18px;
+}

@@ -1,0 +1,132 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background:#ffffff;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li.selected a {
+    color: #ffffff;
+    background:#000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a .active {
+    color: #000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background: #ffffff;
+    color:#000000;
+    font-weight:bold;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #000000;
+    font-weight:bold;
+}
+
+.navbar-brand {
+	font-weight:bold;
+	font-size:20px;
+	color:#000000;
+}
+
+.navbar-header a:hover {
+    color:#000000;
+}
+
+#portfolio-container {
+    margin:5em auto;
+    text-align:center;
+}
+
+#portfolio-container ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+#portfolio-container li {
+    border: 2px solid #e7e7e7;
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+#portfolio-container figure {
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 337px;
+}
+
+#portfolio-container li:hover figcaption {
+    opacity: 1;
+}
+
+#portfolio-container img {
+    display: block;
+    height: auto;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    max-width: 100%;
+}
+
+#portfolio-container li:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+#portfolio-container figcaption p {
+    display: table-cell;
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    width: 337px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    vertical-align: middle;
+}
+
+#portfolio-container figcaption .strongP {
+    font-weight:bold;
+    padding:20px;
+}
+
+#portfolio-container figcaption a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+#portfolio-container li:hover figcaption p {
+    -moz-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
+#portfolio-container figcaption {
+    background: rgba(0,0,0,0.85);
+    color: white;
+    display: table;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    transition-delay: 100ms;
+    z-index: 100;
+}
+

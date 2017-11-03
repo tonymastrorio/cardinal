@@ -1,0 +1,238 @@
+/*header*/
+
+/* font definitions */
+@font-face {
+    font-family: 'HaloHandletter';
+    src: url('../fonts/HaloHandletter.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Adobe-Garamond-Pro-Italic';
+    src: url('../fonts/Adobe-Garamond-Pro-Italic.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Montserrat-Regular';
+}
+
+#toplogo {
+    max-width: 120px;
+}
+
+header .title {
+    font-family: HaloHandletter;
+    color: #9a7d85;
+    font-size: 3.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header .title a {
+    text-decoration: none;
+    color: #9a7d85;
+}
+
+header .search {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.search .box {
+    border: 1px solid #d8e2dc;
+    font-size: 11pt;
+    font-family: Montserrat-Regular;
+    color: #1e1e1e;
+    padding: 0 10px;
+    height: 40px;
+    width: 293px;
+}
+
+.search .box:focus {
+    border-color: #9a7d85;
+    outline: none;
+}
+
+.search .go {
+    display: inline-block;
+    background-color: #d8e2dc;
+    border: 0;
+    padding: 8px 10px 10px 9px;
+}
+
+.search .go .glyphicon-search {
+    font-size: 1.6em;
+    color: #9a7d85;
+    vertical-align: bottom;
+}
+
+.search .go:focus {
+    outline: none;
+}
+
+.links {
+    margin-top: 40px;
+    text-align: center;
+    float: right;
+}
+
+.links div {
+    font-size: 15px;
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    color: #9a7d85;
+    padding: 0 10px;
+}
+
+.links .sign-in, .links .register, .links .open-shop {
+    border-right: 1px solid #d8e2dc;
+}
+
+.links .cart a{
+    color: #9a7d85;
+}
+
+.links .cart a:hover{
+    color: #9a7d85;
+}
+
+.links a, 
+.links  a:hover,
+.links a:active,
+.links a:link {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #D8E2DC;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-radius: 0;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+.navbar li {
+    font-size: 16px;
+    padding: 0 13px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #1E1E1E;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1206px) {
+    .navbar li {
+        font-size: 12px;
+        padding: 0 7px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar li {
+        font-size: 12px;
+        padding: 0;
+    }
+    .search .box {
+    width: 200px;
+    }
+    .links div {
+    font-size: 14px;
+    }
+    .links .open-shop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .navbar li {
+        font-size: 11px;
+        padding: 0;
+    }
+}
+
+/* Fix navbar horizontal scroll */
+@media only screen and (max-width: 800px) {
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    #small-search {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #search-div {
+        display: none;
+    }
+    .links {
+        margin-top: 20px;
+    }
+    .links div {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    header .title {
+        margin-top: 5px;
+        font-size: 3.0em;
+    }
+    header .search {
+        margin-top: 10px;
+    }
+    div#small-search.row {
+        margin-top: -50px;
+    }
+    #small-search .box {
+        width: 175px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    #small-search {
+        text-align: right;
+        margin-right: 5px;
+    }
+    #small-search .box {
+        width: 150px;
+        height: 30px;
+    }
+    .search .go .glyphicon-search {
+        
+    }
+    .search .go {
+        padding-top: 3px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+/*Container-fluid*/
+.container-fluid {
+    padding: 0;
+}

@@ -1,0 +1,115 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background:#ffffff;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li.selected a {
+    color: #ffffff;
+    background:#000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a .active {
+    color: #000000;
+    font-weight:bold;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background: #ffffff;
+    color:#000000;
+    font-weight:bold;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #000000;
+    font-weight:bold;
+}
+
+.navbar-brand {
+	font-weight:bold;
+	font-size:20px;
+	color:#000000;
+}
+
+.navbar-header a:hover {
+    color:#000000;
+}
+
+#about-img {
+    width: 450px;
+    display:block;
+    margin:auto;
+    text-align:center;
+    padding-top:10%;
+}
+
+h2 {
+    font-size:6.0vh;
+    padding-bottom:10px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.about-content {
+    padding-left:50px;
+    padding-top:5%;
+}
+
+.about-container p {
+    font-size:18px;
+}
+
+.about-container a {
+    text-decoration: underline;
+    color:#000000;
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  .about-content {
+    padding-left:30px;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+    .skills-icons {
+        margin-left: 15px;
+    }
+}
+
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    height: 80px;
+    padding: 10px;
+}
+
+li.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+}
+
+.caption {
+    display: block;
+    font-weight: bold;
+}
