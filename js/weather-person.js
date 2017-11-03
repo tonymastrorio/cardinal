@@ -24,14 +24,14 @@ $(".color-btn").click(function() {
 
 function makeMale() {
     $("#female").removeClass("active btn-primary");
-    $(this).addClass("active btn-primary");
+    $("#male").addClass("active btn-primary");
     $("#person-gender").removeClass("fa-female");
     $("#person-gender").addClass("fa-male");
 }
 
 function makeFemale() {
     $("#male").removeClass("active btn-primary");
-    $(this).addClass("active btn-primary");
+    $("#female").addClass("active btn-primary");
     $("#person-gender").removeClass("fa-male");
     $("#person-gender").addClass("fa-female");
 }
